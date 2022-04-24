@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "432571385223",
+    "project_id": "dublinpub-a39c8",
+    "storage_bucket": "dublinpub-a39c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432571385223:android:f4318c15c0d9a342617f22",
+        "android_client_info": {
+          "package_name": "com.example.duglinpub_menu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432571385223-bb16d9b66qdcd2so4cfu5tamv859d7d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcol6739-d7FBicv8FzdXRryDq7zdozhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432571385223-bb16d9b66qdcd2so4cfu5tamv859d7d9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
