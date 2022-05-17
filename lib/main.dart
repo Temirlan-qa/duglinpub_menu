@@ -1,5 +1,4 @@
 import 'package:duglinpub_menu/views/home.dart';
-import 'package:duglinpub_menu/views/recipe.dart';
 import 'package:flutter/material.dart';
 
 void main() {

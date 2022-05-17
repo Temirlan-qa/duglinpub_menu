@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.duglinpub_menu">
    <application
-        android:label="duglinpub_menu"
+        android:label="Duglin pub"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
