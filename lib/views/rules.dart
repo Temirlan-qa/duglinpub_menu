@@ -13,15 +13,30 @@ class RulesScreen extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Container(
+          
           color: const Color(0xFFE1DAD2),
           child: Container(
-            margin: const EdgeInsets.all(10),
+            decoration: const BoxDecoration(
+              color:Color(0xFF046936),
+              borderRadius: BorderRadius.only(
+                topLeft:  Radius.circular(10),
+                topRight:  Radius.circular(10),
+                bottomLeft:  Radius.circular(10),
+                bottomRight:  Radius.circular(10),
+              ),
+            ),
+            // margin: const EdgeInsets.all(10),
+            margin: const EdgeInsets.symmetric(
+              horizontal: 10,
+              vertical: 20,
+            ),
+            padding: const EdgeInsets.all(10),
             child: Column(
               children: [
                 const Text(
                   'В караоке    “Dublin Pub” дейтвуют следующие правила:\n',
                   style: TextStyle(
-                    color: Colors.black,
+                    color: Colors.white,
                     fontSize: 18,
                     fontWeight: FontWeight.w600
                   ),
@@ -37,14 +52,14 @@ class RulesScreen extends StatelessWidget {
   Посещая наше заведение, гость тем самым соглашается с правилами посещения и обязуется их выполнять.
                 ''',
                   style: TextStyle(
-                    color: Colors.black,
+                    color: Colors.white,
                     fontSize: 14,
                   ),
                 ),
                 const Text(
                   'Штрафы “Dublin Pub"\n',
                   style: TextStyle(
-                    color: Colors.black,
+                    color: Colors.white,
                     fontSize: 18,
                     fontWeight: FontWeight.w600
                   ),
@@ -53,7 +68,7 @@ class RulesScreen extends StatelessWidget {
                   text: const TextSpan(
                     text: ''' Dublin Pub Бой посуды и порча имущества: \n''',
                     style: TextStyle(
-                      color: Colors.black,
+                      color: Colors.white,
                       fontSize: 15,
                       
                     ),
@@ -83,7 +98,7 @@ class RulesScreen extends StatelessWidget {
     В территории кафе действуют правила “Черного списка”.
                         ''',
                         style: TextStyle(
-                          color: Colors.black,
+                          color: Colors.white,
                           fontSize: 14,
                           fontWeight: FontWeight.w400
                         ),
