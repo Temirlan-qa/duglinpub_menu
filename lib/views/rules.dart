@@ -120,9 +120,6 @@ class RulesScreen extends StatelessWidget {
 //                   ),
 //                 ),
               
-              
-              
-              
               ],
             ),
           ),

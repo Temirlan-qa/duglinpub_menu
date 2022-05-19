@@ -97,7 +97,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
               ),
-              const SizedBox(height: 10,),
+              const SizedBox(height: 7,),
               InkWell(
                 onTap: (){
                   Navigator.of(context).push(MaterialPageRoute(builder: (context) => const QuizPage()));
@@ -151,7 +151,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
               ),
-              const SizedBox(height: 10,),
+              const SizedBox(height: 7,),
               InkWell(
                 onTap: (){
                   Navigator.of(context).push(MaterialPageRoute(builder: (context) => const RulesScreen()));
@@ -205,7 +205,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
               ),
-              const SizedBox(height: 10,),
+              const SizedBox(height: 7,),
               // const Spacer(),
               Container(
                 margin: const EdgeInsets.symmetric(horizontal: 22,),
