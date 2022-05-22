@@ -2,25 +2,28 @@ import 'package:duglinpub_menu/screens/kuh/recipe.dart';
 import 'package:flutter/material.dart';
 
 class DrawerScreen extends StatelessWidget {
-  const DrawerScreen({ Key key }) : super(key: key);
+  const DrawerScreen({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      child:ListView(
-        
+      backgroundColor: const Color(0xFFE1DAD2),
+      child: ListView(
         // padding: EdgeInsets.all(5),
         children: <Widget>[
           const DrawerHeader(
             // child: Text('Dublin Pub Menu',style: TextStyle(fontSize: 18,color: Colors.black),),
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('images/logo.png'),
-                fit: BoxFit.cover
+                image: AssetImage('images/log.png'),
+                fit: BoxFit.cover,
               ),
             ),
           ),
-          const SizedBox(height: 50,),
+
+          const SizedBox(
+            height: 50,
+          ),
           ListTile(
             title: const Text(
               'График работы\n15:00-03:00',
@@ -28,8 +31,7 @@ class DrawerScreen extends StatelessWidget {
                 fontSize: 17,
               ),
             ),
-            onTap: (){
-            },
+            onTap: () {},
           ),
           ListTile(
             title: const Text(
@@ -37,9 +39,8 @@ class DrawerScreen extends StatelessWidget {
               style: TextStyle(
                 fontSize: 17,
               ),
-              ),
-            onTap: (){
-            },
+            ),
+            onTap: () {},
           ),
           ListTile(
             title: const Text(
@@ -48,8 +49,7 @@ class DrawerScreen extends StatelessWidget {
                 fontSize: 17,
               ),
             ),
-            onTap: (){
-            },
+            onTap: () {},
           ),
           ListTile(
             title: const Text(
@@ -58,8 +58,7 @@ class DrawerScreen extends StatelessWidget {
                 fontSize: 17,
               ),
             ),
-            onTap: (){
-            },
+            onTap: () {},
           ),
           ListTile(
             title: const Text(
@@ -68,10 +67,9 @@ class DrawerScreen extends StatelessWidget {
                 fontSize: 17,
               ),
             ),
-            onTap: (){
-            },
+            onTap: () {},
           ),
-          
+
           // ListTile(
           //   title: const Text(
           //     '',
@@ -82,12 +80,6 @@ class DrawerScreen extends StatelessWidget {
           //   onTap: (){
           //   },
           // ),
-
-
-
-
-
-
         ],
       ),
     );
