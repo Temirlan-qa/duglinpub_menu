@@ -125,7 +125,8 @@ class _HomePageState extends State<HomePage> {
                         mobileBackgroundColor.withOpacity(0.35),
                         BlendMode.multiply,
                       ),
-                      image: const NetworkImage('https://immigrantinvest.com/wp-content/uploads/2016/12/50-european-dishes.jpeg'),
+                      image: const AssetImage('images/1.png'),
+                      // image: const NetworkImage('https://immigrantinvest.com/wp-content/uploads/2016/12/50-european-dishes.jpeg'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -179,7 +180,9 @@ class _HomePageState extends State<HomePage> {
                         mobileBackgroundColor.withOpacity(0.35),
                         BlendMode.multiply,
                       ),
-                      image: const NetworkImage('https://firebasestorage.googleapis.com/v0/b/dublinpub-a39c8.appspot.com/o/photo_2022-05-17_12-15-42.jpg?alt=media&token=3ac4154e-05b9-41a2-b401-182ff557d92f'),
+                      // image: const AssetImage('images/IMG_7004.PNG'),
+                      image: const AssetImage('images/rules.png'),
+                      // image: const NetworkImage('https://firebasestorage.googleapis.com/v0/b/dublinpub-a39c8.appspot.com/o/photo_2022-05-17_12-15-42.jpg?alt=media&token=3ac4154e-05b9-41a2-b401-182ff557d92f'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -206,7 +209,10 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               const SizedBox(height: 7,),
-              // const Spacer(),
+              
+              const SizedBox(
+                height: 220,
+              ),
               Container(
                 margin: const EdgeInsets.symmetric(horizontal: 22,),
                 width: MediaQuery.of(context).size.width,

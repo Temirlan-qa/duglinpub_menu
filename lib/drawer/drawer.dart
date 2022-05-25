@@ -21,9 +21,9 @@ class DrawerScreen extends StatelessWidget {
             ),
           ),
 
-          const SizedBox(
-            height: 50,
-          ),
+          // const SizedBox(
+          //   height: 50,
+          // ),
           ListTile(
             title: const Text(
               'График работы\n15:00-03:00',
