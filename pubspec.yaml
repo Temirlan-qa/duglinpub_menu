@@ -48,6 +48,31 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
+  flutter_native_splash: ^0.3.2
+
+flutter_native_splash:
+
+  color: "#E1DAD2"
+  # background_image: "images/od_icon.png"
+
+  image: images/splash.png
+
+  android_12:
+    #image: assets/android12splash.png
+
+    # App icon background color.
+    #icon_background_color: "#111111"
+
+    # The image_dark parameter and icon_background_color_dark set the image and icon background
+    # color when the device is in dark mode. If they are not specified, the app will use the
+    # parameters from above.
+    #image_dark: assets/android12splash-invert.png
+    #icon_background_color_dark: "#eeeeee"
+
+  # The android, ios and web parameters can be used to disable generating a splash screen on a given
+  # platform.
+  android: true
+  ios: false
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
