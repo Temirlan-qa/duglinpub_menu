@@ -1,6 +1,6 @@
 # duglinpub_menu
 
-A new Flutter project.I use firebase-realtime for database
+A new Flutter project.I use firebase-realtime for database.This mobile app just for tablet
 
 ## Getting Started
 
